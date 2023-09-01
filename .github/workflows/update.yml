@@ -23,8 +23,7 @@ jobs:
         
       - name: Working
         run: node ./index.js
-        
-    steps:
+
       - name: Sync to Gitee
         uses: wearerequired/git-mirror-action@master
         env:
