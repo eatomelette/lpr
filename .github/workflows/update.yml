@@ -1,11 +1,13 @@
 name: updateLPR
 on: 
   push:
-    branches: main
+    branches:[ main ]
+  pull_request:
+    branches: [ main ]
   schedule:
     - corn 0 9 19-25 * *
 jobs:
-  updateLPR:  
+  build:
     runs-on: ubunt-latest
     step:
       - uses: actions/checkout@main
@@ -17,8 +19,11 @@ jobs:
       
       - name: Install Dependency
         run: |
-        npm install 
-        node ./index.js
+         npm install 
+        
+      - name: Working
+        run: node ./index.js
+        
     steps:
       - name: Sync to Gitee
         uses: wearerequired/git-mirror-action@master
