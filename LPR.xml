@@ -1,243 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataroot>
-    <Temp>
+    <LPR>
+        <date>2023/8/21</date>
+        <LPR1Y>0.0345</LPR1Y>
+        <LPR5Y>0.042</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2023/7/20</date>
-        <1Y>0.03550 </1Y>
-        <5Y>0.04200 </5Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03550</LPR1Y>
+        <LPR5Y>0.04200</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2023/6/20</date>
-        <2Y>0.03550 </2Y>
-        <6Y>0.04200 </6Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03550</LPR1Y>
+        <LPR5Y>0.04200</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2023/5/22</date>
-        <3Y>0.03650 </3Y>
-        <7Y>0.04300 </7Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03650</LPR1Y>
+        <LPR5Y>0.04300</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2023/4/20</date>
-        <4Y>0.03650 </4Y>
-        <8Y>0.04300 </8Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03650</LPR1Y>
+        <LPR5Y>0.04300</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2023/3/20</date>
-        <5Y>0.03650 </5Y>
-        <9Y>0.04300 </9Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03650</LPR1Y>
+        <LPR5Y>0.04300</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2023/2/20</date>
-        <6Y>0.03650 </6Y>
-        <10Y>0.04300 </10Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03650</LPR1Y>
+        <LPR5Y>0.04300</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2023/1/20</date>
-        <7Y>0.03650 </7Y>
-        <11Y>0.04300 </11Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03650</LPR1Y>
+        <LPR5Y>0.04300</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2022/12/20</date>
-        <8Y>0.03650 </8Y>
-        <12Y>0.04300 </12Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03650</LPR1Y>
+        <LPR5Y>0.04300</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2022/11/21</date>
-        <9Y>0.03650 </9Y>
-        <13Y>0.04300 </13Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03650</LPR1Y>
+        <LPR5Y>0.04300</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2022/10/20</date>
-        <10Y>0.03650 </10Y>
-        <14Y>0.04300 </14Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03650</LPR1Y>
+        <LPR5Y>0.04300</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2022/9/20</date>
-        <11Y>0.03650 </11Y>
-        <15Y>0.04300 </15Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03650</LPR1Y>
+        <LPR5Y>0.04300</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2022/8/22</date>
-        <12Y>0.03650 </12Y>
-        <16Y>0.04300 </16Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03650</LPR1Y>
+        <LPR5Y>0.04300</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2022/7/20</date>
-        <13Y>0.03700 </13Y>
-        <17Y>0.04450 </17Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03700</LPR1Y>
+        <LPR5Y>0.04450</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2022/6/20</date>
-        <14Y>0.03700 </14Y>
-        <18Y>0.04450 </18Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03700</LPR1Y>
+        <LPR5Y>0.04450</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2022/5/20</date>
-        <15Y>0.03700 </15Y>
-        <19Y>0.04450 </19Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03700</LPR1Y>
+        <LPR5Y>0.04450</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2022/4/20</date>
-        <16Y>0.03700 </16Y>
-        <20Y>0.04600 </20Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03700</LPR1Y>
+        <LPR5Y>0.04600</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2022/3/21</date>
-        <17Y>0.03700 </17Y>
-        <21Y>0.04600 </21Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03700</LPR1Y>
+        <LPR5Y>0.04600</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2022/2/21</date>
-        <18Y>0.03700 </18Y>
-        <22Y>0.04600 </22Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03700</LPR1Y>
+        <LPR5Y>0.04600</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2022/1/20</date>
-        <19Y>0.03700 </19Y>
-        <23Y>0.04600 </23Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03700</LPR1Y>
+        <LPR5Y>0.04600</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2021/12/20</date>
-        <20Y>0.03800 </20Y>
-        <24Y>0.04650 </24Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03800</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2021/11/22</date>
-        <21Y>0.03850 </21Y>
-        <25Y>0.04650 </25Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2021/10/20</date>
-        <22Y>0.03850 </22Y>
-        <26Y>0.04650 </26Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2021/9/20</date>
-        <23Y>0.03850 </23Y>
-        <27Y>0.04650 </27Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2021/8/20</date>
-        <24Y>0.03850 </24Y>
-        <28Y>0.04650 </28Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2021/7/20</date>
-        <25Y>0.03850 </25Y>
-        <29Y>0.04650 </29Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2021/6/21</date>
-        <26Y>0.03850 </26Y>
-        <30Y>0.04650 </30Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2021/5/20</date>
-        <27Y>0.03850 </27Y>
-        <31Y>0.04650 </31Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2021/4/20</date>
-        <28Y>0.03850 </28Y>
-        <32Y>0.04650 </32Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2021/3/22</date>
-        <29Y>0.03850 </29Y>
-        <33Y>0.04650 </33Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2021/2/22</date>
-        <30Y>0.03850 </30Y>
-        <34Y>0.04650 </34Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2021/1/20</date>
-        <31Y>0.03850 </31Y>
-        <35Y>0.04650 </35Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2020/12/21</date>
-        <32Y>0.03850 </32Y>
-        <36Y>0.04650 </36Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2020/11/20</date>
-        <33Y>0.03850 </33Y>
-        <37Y>0.04650 </37Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2020/10/20</date>
-        <34Y>0.03850 </34Y>
-        <38Y>0.04650 </38Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2020/9/21</date>
-        <35Y>0.03850 </35Y>
-        <39Y>0.04650 </39Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2020/8/20</date>
-        <36Y>0.03850 </36Y>
-        <40Y>0.04650 </40Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2020/7/20</date>
-        <37Y>0.03850 </37Y>
-        <41Y>0.04650 </41Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2020/6/22</date>
-        <38Y>0.03850 </38Y>
-        <42Y>0.04650 </42Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2020/5/20</date>
-        <39Y>0.03850 </39Y>
-        <43Y>0.04650 </43Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2020/4/20</date>
-        <40Y>0.03850 </40Y>
-        <44Y>0.04650 </44Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.03850</LPR1Y>
+        <LPR5Y>0.04650</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2020/3/20</date>
-        <41Y>0.04050 </41Y>
-        <45Y>0.04750 </45Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.04050</LPR1Y>
+        <LPR5Y>0.04750</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2020/2/20</date>
-        <42Y>0.04050 </42Y>
-        <46Y>0.04750 </46Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.04050</LPR1Y>
+        <LPR5Y>0.04750</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2020/1/20</date>
-        <43Y>0.04150 </43Y>
-        <47Y>0.04800 </47Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.04150</LPR1Y>
+        <LPR5Y>0.04800</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2019/12/20</date>
-        <44Y>0.04150 </44Y>
-        <48Y>0.04800 </48Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.04150</LPR1Y>
+        <LPR5Y>0.04800</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2019/11/20</date>
-        <45Y>0.04150 </45Y>
-        <49Y>0.04800 </49Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.04150</LPR1Y>
+        <LPR5Y>0.04800</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2019/10/21</date>
-        <46Y>0.04200 </46Y>
-        <50Y>0.04850 </50Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.04200</LPR1Y>
+        <LPR5Y>0.04850</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2019/9/20</date>
-        <47Y>0.04200 </47Y>
-        <51Y>0.04850 </51Y>
-    </Temp>
-    <Temp>
+        <LPR1Y>0.04200</LPR1Y>
+        <LPR5Y>0.04850</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2019/8/20</date>
-        <48Y>0.04250 </48Y>
-        <52Y>0.04850 </52Y>
-    </Temp>
+        <LPR1Y>0.04250</LPR1Y>
+        <LPR5Y>0.04850</LPR5Y>
+    </LPR>
 </dataroot>
