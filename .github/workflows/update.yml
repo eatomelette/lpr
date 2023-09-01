@@ -5,10 +5,10 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - corn 0 9 19-25 * *
+    - cron 0 9 19-25 * *
 jobs:
   build:
-    runs-on: ubunt-latest
+    runs-on: ubuntu-latest
     step:
       - uses: actions/checkout@main
 
@@ -30,4 +30,4 @@ jobs:
             SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
         with:
             source-repo: git@github.com:eatomelette/lpr.git
-            destination-repo: git@gitee.com:cpvhelper/lpr.git
+            destination-repo: git@gitee.com:cpvhelper/lpr.git 
