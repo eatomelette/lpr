@@ -9,9 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: Setup Nodejs
-        uses: actions/setup-node@v1.4.2
+        uses: actions/setup-node@v3
         with: 
-          node-version: '14'
+          node-version: 18
       
       - name: Install Dependency
         run: |
