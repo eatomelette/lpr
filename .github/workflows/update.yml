@@ -1,7 +1,9 @@
 name: updateLPR
-on: [push, delete, create]
-    schedule:
-      - corn '0 9 * * *'
+on: 
+  push:
+    branches: main
+  schedule:
+    - corn 0 9 19-25 * *
 jobs:
   updateLPR:  
     runs-on: ubunt-latest
