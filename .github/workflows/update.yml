@@ -1,0 +1,27 @@
+name: updateLPR
+on: [push, delete, create]
+    schedule:
+      - corn '0 9 * * *'
+jobs:
+  updateLPR:  
+    runs-on: ubunt-latest
+    step:
+      - uses: actions/checkout@main
+
+      - name: Setup Nodejs
+        uses: actions/step-node@v2
+        with: 
+          node-version: '14'
+      
+      - name: Install Dependency
+        run: |
+        npm install 
+        node ./index.js
+    steps:
+      - name: Sync to Gitee
+        uses: wearerequired/git-mirror-action@master
+        env:
+            SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
+        with:
+            source-repo: git@github.com:eatomelette/lpr.git
+            destination-repo: git@gitee.com:cpvhelper/lpr.git
