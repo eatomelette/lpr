@@ -1,12 +1,9 @@
 name: updateLPR
 on: 
   push:
-<<<<<<< HEAD
   pull_request:
   schedule:
-    - cron 0 9 19-25 * *
-=======
->>>>>>> 8d08be57113f719234daf77339b73814ffa47c59
+    - cron: 0 9 19-25 * *
 
 jobs:
   build:
