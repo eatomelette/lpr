@@ -1,17 +1,20 @@
 name: updateLPR
 on: 
   push:
-  
+  pull_request:
+  schedule:
+    - cron 0 9 19-25 * *
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    step:
+    steps:
       - uses: actions/checkout@main
       - name: Setup Nodejs
-        uses: actions/step-node@v2
+        uses: actions/setup-node@v3
         with: 
-          node-version: '14'
+          node-version: 18
       
       - name: Install Dependency
         run: |
@@ -27,5 +30,3 @@ jobs:
         with:
             source-repo: git@github.com:eatomelette/lpr.git
             destination-repo: git@gitee.com:cpvhelper/lpr.git 
-
-
