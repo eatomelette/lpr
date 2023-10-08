@@ -4,6 +4,7 @@ on:
   pull_request:
   schedule:
     - cron: 0 9 19-25 * *
+  workflow_dispatch:
 
 jobs:
   build:
@@ -18,17 +19,9 @@ jobs:
       - name: checkout <LPR.XML>
         uses: moonrailgun/branch-filestorage-action@v1.2.2
         with: 
-            path: data/LPR.xml
+            path: LPR.xml
       - name: Install Dependency
         run: |
          npm install 
-      - name: Working
+      - name: Update LPR.xml
         run: node ./index.js
-
-      # - name: Sync to Gitee
-      #   uses: wearerequired/git-mirror-action@master
-      #   env:
-      #       SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
-      #   with:
-      #       source-repo: git@github.com:eatomelette/lpr.git
-      #       destination-repo: git@gitee.com:cpvhelper/lpr.git 
