@@ -26,7 +26,7 @@ jobs:
       - name: checkout <LPR.XML>
         uses: moonrailgun/branch-filestorage-action@v1.2.2
         with: 
-            path: LPR.xml
+            path: data/LPR.xml
 
       # - name: Sync to Gitee
       #   uses: wearerequired/git-mirror-action@master

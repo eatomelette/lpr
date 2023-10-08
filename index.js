@@ -3,7 +3,7 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
-const XMLPAHT = path.join(__dirname,'LPR.xml');
+const XMLPAHT = path.join(__dirname,'data','LPR.xml');
 
 const ULR = "https://www.shibor.org/r/cms/www/chinamoney/data/currency/bk-lpr.json";
 
