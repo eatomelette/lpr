@@ -15,18 +15,15 @@ jobs:
         uses: actions/setup-node@v3
         with: 
           node-version: 18
-      
-      - name: Install Dependency
-        run: |
-         npm install 
-        
-      - name: Working
-        run: node ./index.js
-
       - name: checkout <LPR.XML>
         uses: moonrailgun/branch-filestorage-action@v1.2.2
         with: 
             path: data/LPR.xml
+      - name: Install Dependency
+        run: |
+         npm install 
+      - name: Working
+        run: node ./index.js
 
       # - name: Sync to Gitee
       #   uses: wearerequired/git-mirror-action@master
