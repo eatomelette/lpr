@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataroot>
     <LPR>
+        <date>2025/10/20</date>
+        <LPR1Y>0.03</LPR1Y>
+        <LPR5Y>0.035</LPR5Y>
+    </LPR>
+    <LPR>
         <date>2025/9/22</date>
         <LPR1Y>0.03</LPR1Y>
         <LPR5Y>0.035</LPR5Y>
