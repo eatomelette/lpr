@@ -5,12 +5,12 @@ const path = require('path');
 
 const XMLPAHT = path.join(__dirname,'LPR.xml');
 
-const ULR = "https://www.shibor.org/r/cms/www/chinamoney/data/currency/bk-lpr.json";
+const URL = "https://www.shibor.org/r/cms/www/chinamoney/data/currency/bk-lpr.json";
 
 async function getLpr(){
     let response = await axios({
         method: 'GET',
-        url:ULR
+        url:URL
     });
     if(response.data){
         let date =  response.data.data.showDateCN
