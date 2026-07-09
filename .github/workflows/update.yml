@@ -9,19 +9,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v4
       - name: Setup Nodejs
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with: 
           node-version: 18
       - name: checkout <LPR.XML>
-        uses: moonrailgun/branch-filestorage-action@v1.2.2
+        uses: moonrailgun/branch-filestorage-action@latest # 替换为兼容Node24最新tag
         with: 
             path: LPR.xml
       - name: Install Dependency
-        run: |
-         npm install 
+        run: npm install 
       - name: Update LPR.xml
         run: node ./index.js
