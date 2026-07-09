@@ -8,4 +8,4 @@ excel引用 [链接](https://raw.githubusercontent.com/eatomelette/lpr/main/LPR.
 
 [LRP发布页](https://eatomelette.github.io/lpr/)
 
-项目参考了[github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action)
+项目参考了[github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action) 
