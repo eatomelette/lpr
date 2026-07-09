@@ -7,4 +7,3 @@
 excel引用 [链接](https://raw.githubusercontent.com/eatomelette/lpr/actions/filedb/LPR.xml)
 
 项目参考了 [moonrailgun/branch-filestorage-action](https://github.com/moonrailgun/branch-filestorage-action)
-
