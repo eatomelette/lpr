@@ -11,8 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: main  # 明确指定检出 main 分支
       
       - name: Setup Nodejs
         uses: actions/setup-node@v4
@@ -22,24 +20,16 @@ jobs:
       - name: Install Dependency
         run: npm install 
         
-      - name: Update LPR.xml
+      - name: Update LPR.xml and generate HTML
         run: node ./index.js
         
-      - name: Commit and push to main branch
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
-          
-          # 添加 LPR.xml 文件
-          git add LPR.xml
-          
-          # 检查是否有变更
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update LPR.xml - $(date '+%Y-%m-%d %H:%M:%S')"
-            git push origin main
-          fi
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./  # 发布当前目录
+          publish_branch: gh-pages  # 使用 gh-pages 分支
+          keep_files: false
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Update LPR data - ${{ github.run_number }}'
