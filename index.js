@@ -5,7 +5,7 @@ const path = require('path');
 
 const XMLPAHT = path.join(__dirname,'LPR.xml');
 
-const URL = "https://www.shibor.org/r/cms/www/chinamoney/data/currency/bk-lpr.json";
+const URL = "https://www.shibor.sh.cn/r/cms/www/chinamoney/data/currency/bk-lpr.json";
 
 async function getLpr(){
     let response = await axios({
