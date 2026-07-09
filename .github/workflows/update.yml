@@ -11,15 +11,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
       - name: Setup Nodejs
         uses: actions/setup-node@v4
         with: 
           node-version: 18
-      - name: checkout <LPR.XML>
-        uses: moonrailgun/branch-filestorage-action@latest # 替换为兼容Node24最新tag
-        with: 
-            path: LPR.xml
+          
       - name: Install Dependency
         run: npm install 
+        
       - name: Update LPR.xml
         run: node ./index.js
+        
+      - name: Deploy to filedb branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: filedb
+          destination_dir: ./
+          keep_files: false
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Update LPR.xml from workflow'
+          # 如果需要只推送特定文件，可以使用以下选项
+          # exclude_assets: ''
