@@ -1,35 +1,49 @@
 name: updateLPR
 on: 
   push:
-  pull_request:
+    branches: [ main ]
   schedule:
-    - cron: 30 9 19-25 * *
+    - cron: '30 9 19-25 * *'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Setup Nodejs
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with: 
           node-version: 18
           
-      - name: Install Dependency
-        run: npm install 
+      - name: Install dependencies
+        run: npm install
         
-      - name: Update LPR.xml and generate HTML
-        run: node ./index.js
+      - name: Run LPR update script
+        run: node index.js
+        
+      - name: Prepare deployment files
+        run: |
+          # 创建部署目录
+          mkdir -p deploy
+          # 只复制需要的文件
+          cp index.html deploy/
+          cp LPR.xml deploy/  # 如果需要公开数据
+          
+      - name: 📂 List deployment files
+        run: ls -la deploy/
         
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./  # 发布当前目录
-          publish_branch: gh-pages  # 使用 gh-pages 分支
+          publish_dir: ./deploy  # 只发布 deploy 目录
+          publish_branch: gh-pages
           keep_files: false
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: 'Update LPR data - ${{ github.run_number }}'
+          commit_message: 'Update LPR page - ${{ github.run_number }}'
